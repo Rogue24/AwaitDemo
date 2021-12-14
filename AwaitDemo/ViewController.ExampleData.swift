@@ -1,0 +1,24 @@
+//
+//  ViewController.ExampleData.swift
+//  AwaitDemo
+//
+//  Created by aa on 2021/12/14.
+//
+
+extension ViewController {
+    var longStr: String {
+        "seoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejfseoifseiofjseoijfisoejfoisejfjsefjsoejf"
+    }
+    
+    var exampleActions: [Selector] {
+        [#selector(btn1DidClick),
+         #selector(btn2DidClick),
+         #selector(btn3DidClick),
+         #selector(btn4DidClick),
+         #selector(btn5DidClick),
+         #selector(btn6DidClick),
+         #selector(btn7DidClick),
+         #selector(btn8DidClick),
+         #selector(btn9DidClick)]
+    }
+}
