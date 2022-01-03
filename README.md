@@ -12,5 +12,5 @@
 
 1. [异步函数初体验](https://juejin.cn/post/7048912537709969416)
 
-PS：后续更新其他小白式理解和`async let`、`actor`、`TaskGroup`等案例的使用。
-未完待续...
+后续更新其他小白式理解和使用`async let`、`actor`、`TaskGroup`等案例的笔记，未完待续...
+
