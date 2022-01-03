@@ -188,9 +188,8 @@ extension ViewController {
                 JPrint("str3 \(str3) \(Thread.current)") // 回到调用函数的那个线程（主线程）
                 tv.backgroundColor = .randomColor
                 
-                // 这个Task要等外层的Task全部执行完才执行
+                // 这个Task由于是在上面的全部await之后才开始的，所以要等外层的Task全部执行完（也就是“555”之后）才执行
                 Task {
-                    // 这是另一个结构化并发的Task，所以会在“555”之后才执行这里的代码
                     JPrint("333 \(Thread.current)")
                     let str4 = try await loadData(3)
                     JPrint("str4 \(str4) \(Thread.current)")
