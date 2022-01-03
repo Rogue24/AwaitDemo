@@ -37,10 +37,11 @@
 		715ED6D126FC517A0030F279 /* Done.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715ED5ED26FC51790030F279 /* Done.swift */; };
 		715ED6D226FC517A0030F279 /* Asyncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715ED5EE26FC51790030F279 /* Asyncs.swift */; };
 		717DDA1F276842AA002123FC /* ViewController.ExampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717DDA1E276842AA002123FC /* ViewController.ExampleData.swift */; };
-		71E7F3A72747A4FC00E4B638 /* async_let的并发执行.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71E7F3A62747A4FC00E4B638 /* async_let的并发执行.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AB9D3202782FCF700E5AFB2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		1AB9D3212782FD1400E5AFB2 /* 异步函数的原理（maybe）.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "异步函数的原理（maybe）.jpg"; sourceTree = "<group>"; };
 		711A744C26FC26E700698A92 /* AwaitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwaitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		711A744F26FC26E700698A92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		711A745126FC26E700698A92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,7 +113,9 @@
 				711A745126FC26E700698A92 /* SceneDelegate.swift */,
 				711A745326FC26E700698A92 /* ViewController.swift */,
 				717DDA1E276842AA002123FC /* ViewController.ExampleData.swift */,
+				1AB9D3212782FD1400E5AFB2 /* 异步函数的原理（maybe）.jpg */,
 				71E7F3A62747A4FC00E4B638 /* async_let的并发执行.jpg */,
+				1AB9D3202782FCF700E5AFB2 /* README.md */,
 				711A745526FC26E700698A92 /* Main.storyboard */,
 				711A745826FC26EA00698A92 /* Assets.xcassets */,
 				711A745A26FC26EA00698A92 /* LaunchScreen.storyboard */,
@@ -246,7 +249,6 @@
 			files = (
 				711A745C26FC26EA00698A92 /* LaunchScreen.storyboard in Resources */,
 				711A745926FC26EA00698A92 /* Assets.xcassets in Resources */,
-				71E7F3A72747A4FC00E4B638 /* async_let的并发执行.jpg in Resources */,
 				711A745726FC26E700698A92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
