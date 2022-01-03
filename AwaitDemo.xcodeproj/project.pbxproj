@@ -108,14 +108,14 @@
 		711A744E26FC26E700698A92 /* AwaitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1AB9D3202782FCF700E5AFB2 /* README.md */,
+				1AB9D3212782FD1400E5AFB2 /* 异步函数的原理（maybe）.jpg */,
+				71E7F3A62747A4FC00E4B638 /* async_let的并发执行.jpg */,
 				715ED5CA26FC51790030F279 /* Neves */,
 				711A744F26FC26E700698A92 /* AppDelegate.swift */,
 				711A745126FC26E700698A92 /* SceneDelegate.swift */,
 				711A745326FC26E700698A92 /* ViewController.swift */,
 				717DDA1E276842AA002123FC /* ViewController.ExampleData.swift */,
-				1AB9D3212782FD1400E5AFB2 /* 异步函数的原理（maybe）.jpg */,
-				71E7F3A62747A4FC00E4B638 /* async_let的并发执行.jpg */,
-				1AB9D3202782FCF700E5AFB2 /* README.md */,
 				711A745526FC26E700698A92 /* Main.storyboard */,
 				711A745826FC26EA00698A92 /* Assets.xcassets */,
 				711A745A26FC26EA00698A92 /* LaunchScreen.storyboard */,
